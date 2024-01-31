@@ -12,8 +12,8 @@ a {
 
 ul {
   list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
   padding-left: 0;
 }
 
@@ -45,34 +45,31 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .header {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
 }
+
 .navigation {
-  align-items: center;
   display: flex;
+  align-items: center;
 }
+
 .logo {
-  text-decoration: none;
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  align-items: center;
   margin-right: 76px;
 }
 .logo-accent {
@@ -80,11 +77,11 @@ img {
 }
 .logo-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
-/*.logo-list,*/
+
 .link {
-  text-decoration: none;
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -247,7 +244,7 @@ img {
   letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
-/*.portfolio-description,*/
+
 .position-title {
   color: #434455;
   text-align: center;
@@ -328,7 +325,7 @@ img {
 
 /* Footer */
 
-.logo {
+.logo-footer {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
@@ -344,12 +341,11 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  max-width: 300px;
+  max-width: 264px;
 }
 
 .footer {
   background: #2e2f42;
-  font-family: Raleway, sans-serif;
   padding: 100px 0;
 }
 
